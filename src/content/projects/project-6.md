@@ -1,61 +1,245 @@
 ---
-title: FitQuest - AR Fitness Adventure Game
-description: This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
-publishDate: 'Dec 28 2023'
+title: 'ConnectaTel — Customer Usage & Segmentation'
+description: 'Customer analytics project transforming telecom usage data into behavioral segments and commercial opportunities for plan optimization, upselling and retention.'
+publishDate: 'Aug 07 2026'
+isFeatured: true
 seo:
   image:
     src: '../../assets/images/project-6.jpg'
+    alt: 'ConnectaTel customer usage and segmentation analysis'
 ---
 
-![Project preview](../../assets/images/project-6.jpg)
+![ConnectaTel Customer Usage & Segmentation](../../assets/images/project-6.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Overview
 
-**Project Overview:**
-FitQuest is an augmented reality (AR) fitness adventure game that revolutionizes traditional workout routines by combining physical exercise with immersive gameplay. This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
+ConnectaTel is a **Customer Analytics and Behavioral Segmentation project** focused on understanding how telecom customers use calls and messaging services.
 
-## Objectives
+The analysis combines customer, plan and usage data to transform **40,000 activity records from 4,000 customers** into behavioral profiles that can support commercial decisions.
 
-1. Develop a fitness app that leverages augmented reality to make workouts more enjoyable and interactive.
-2. Integrate real-world locations and landmarks into the game, turning everyday environments into exciting adventure settings.
-3. Motivate users to stay active and maintain a consistent fitness routine by blending physical activity with a captivating storyline.
+The main business question was:
 
-## Features
+**How can actual customer behavior be used to improve segmentation, plan strategy and commercial opportunities?**
 
-1. **Augmented Reality Workouts:**
+---
 
-- FitQuest utilizes AR technology to overlay game elements onto the real-world environment, creating an immersive and dynamic workout experience.
-- Users engage in exercises that align with the game's storyline while interacting with virtual elements superimposed on their surroundings.
+## Business Challenge
 
-2. **Interactive Storyline and Challenges:**
+Traditional customer segmentation based only on the contracted plan may overlook important differences in actual usage.
 
-- The app features an adventure-driven storyline where users embark on quests and missions to complete fitness challenges.
-- Challenges include cardio exercises, strength training, and flexibility workouts, seamlessly integrated into the game's narrative.
+Two customers subscribed to the same plan can have completely different consumption patterns and commercial needs.
 
-3. **Real-World Landmarks Integration:**
+The project therefore explored:
 
-- FitQuest incorporates real-world landmarks and locations as key elements in the game, turning parks, streets, and other environments into virtual fitness arenas.
-- Users explore these locations while completing fitness challenges and unlocking new levels.
+- Customer usage behavior
+- Basic vs. Premium distribution
+- High-consumption customers
+- Behavioral segmentation
+- Differences across age groups
+- Potential upselling opportunities
 
-4. **Multiplayer Mode and Team Challenges:**
+---
 
-- Users can connect with friends or join teams to participate in multiplayer challenges.
-- Team-based missions encourage collaboration and friendly competition, enhancing the social aspect of fitness.
+## Data & Analytical Approach
 
-5. **Fitness Tracking and Progress Monitoring:**
+The project integrates three datasets containing:
 
-- The app includes a comprehensive fitness tracking system that monitors users' progress, calories burned, and achievements.
-- Users can set personalized fitness goals and track their improvement over time.
+- **4,000 customers**
+- **40,000 activity records**
+- Customer demographics
+- Plan information
+- Calls and messages
+- Usage duration
 
-## Technology Stack
+The analytical workflow was:
 
-- Frontend: Unity for AR game development.
-- Backend: Node.js for handling server-side logic and real-time data synchronization.
-- Database: MongoDB for storing user profiles, fitness data, and game progress.
-- AR Integration: ARCore (Android) and ARKit (iOS) for augmented reality features.
+**Data Cleaning → Aggregation → EDA → Segmentation → Insights → Recommendations**
 
-## Outcome
+The analysis included data-quality validation, dataset integration, customer-level aggregation, descriptive statistics, IQR-based outlier detection and behavioral segmentation.
 
-FitQuest has transformed the fitness landscape by merging physical activity with immersive gaming experiences. Users not only enjoy staying active but also find motivation in the storyline and challenges, creating a unique and entertaining approach to maintaining a healthy lifestyle.
+---
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## 01 — Customer Usage
+
+Average usage per customer:
+
+- **5.52 messages**
+- **4.48 calls**
+- **23.32 call minutes**
+
+Activity distribution:
+
+- **55.23% Text**
+- **44.77% Calls**
+
+### Business Interpretation
+
+Both services remain relevant within the analyzed customer base, with messaging representing the largest share of recorded activity.
+
+---
+
+## 02 — Plan Distribution
+
+Customer distribution:
+
+**Basic**
+
+64.88%
+
+**Premium**
+
+35.12%
+
+### Key Finding
+
+Nearly **2 out of every 3 customers use the Basic plan**.
+
+This makes the Basic customer base particularly important for identifying users whose actual consumption may indicate opportunities for migration or upselling.
+
+---
+
+## 03 — High-Usage Customers
+
+The IQR method was used to identify unusually high consumption levels.
+
+Upper thresholds:
+
+```text
+Messages → 11.5
+Calls → 10.5
+Minutes → 61.86
+```
+
+These observations were preserved rather than automatically removed because they may represent legitimate high-value behavioral patterns.
+
+### Business Interpretation
+
+High-usage customers could represent opportunities for:
+
+- Upselling
+- Specialized plans
+- Add-ons
+- Personalized offers
+
+---
+
+## 04 — Behavioral Segmentation
+
+Customers were classified into:
+
+**Low Usage → Medium Usage → High Usage**
+
+based on their calling and messaging behavior.
+
+### Business Interpretation
+
+This allows segmentation to move beyond the customer's current subscription.
+
+Instead of relying only on:
+
+**Basic vs. Premium**
+
+the company can incorporate:
+
+**Plan + Actual Usage**
+
+to build more meaningful customer segments.
+
+---
+
+## 05 — Age Segmentation
+
+Customers were divided into:
+
+- **Young (<30): 19.0%**
+- **Adults (30–59): 50.5%**
+- **Older Adults (60+): 30.6%**
+
+### Key Finding
+
+Adults represent approximately half of the customer base.
+
+However, average usage levels were relatively similar across age groups.
+
+### Business Interpretation
+
+Age alone does not appear sufficient to explain major differences in customer consumption.
+
+Behavior should therefore remain the primary segmentation signal, with demographics used as complementary information.
+
+---
+
+## Key Findings
+
+- **64.88% of customers use the Basic plan.**
+- Customers average **5.52 messages, 4.48 calls and 23.32 call minutes**.
+- Messaging represents **55.23% of recorded activity**.
+- High-consumption customers were identified through IQR rather than automatically removed as outliers.
+- Adults aged 30–59 represent approximately **50.5% of customers**.
+- Usage patterns remain relatively similar across age groups.
+- Behavioral data provides an opportunity to improve segmentation beyond plan type alone.
+
+---
+
+## Strategic Recommendations
+
+### Identify High-Usage Basic Customers
+
+Use behavioral data to identify Basic customers whose consumption could justify Premium migration or additional services.
+
+### Segment by Actual Behavior
+
+Combine:
+
+**Plan + Usage Level + Customer Profile**
+
+instead of relying exclusively on subscription type.
+
+### Develop Offers for Intensive Users
+
+Test specialized plans, add-ons or personalized offers for customers with unusually high usage.
+
+### Evaluate Premium Value
+
+Connect usage with revenue, churn and profitability to determine whether Premium generates incremental customer and business value.
+
+### Validate Through Experimentation
+
+Use A/B testing and controlled commercial experiments before implementing new plan structures or offers at scale.
+
+---
+
+## Tools & Technologies
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Exploratory Data Analysis**
+- **Data Cleaning**
+- **Data Aggregation**
+- **IQR Outlier Detection**
+- **Customer Segmentation**
+- **Customer Analytics**
+- **Telecom Analytics**
+
+---
+
+## What This Project Demonstrates
+
+This project demonstrates my ability to transform raw customer activity into **behavioral segments and commercially actionable insights**.
+
+The analysis combines data cleaning, multiple-dataset integration, feature aggregation and customer segmentation to connect technical analysis with business decisions.
+
+The process can be summarized as:
+
+**Raw Data → Customer Behavior → Segmentation → Insight → Commercial Opportunity**
+
+---
+
+## Repository
+
+<a href="https://github.com/josuemayoral-cell/connectatel-analysis" target="_blank" rel="noopener noreferrer">
+View ConnectaTel Project on GitHub
+</a>

@@ -2,42 +2,70 @@
 title: About
 seo:
   title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  description: Marketing & Data Analyst focused on data analysis, experimentation and actionable insights to support business growth and better decision-making.
   image:
     src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    alt: 'Josué Mayoral — Marketing & Data Analyst'
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Josué Mayoral — Marketing & Data Analyst](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Marketing, Data & Experimentation
 
-## Ethan Donovan - Web Developer based in Estonia
+I'm **Josué Mayoral**, a Marketing & Data Analyst with a background in marketing strategy, digital growth and data-driven decision-making.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+My experience in marketing led me to a simple question:
 
-## Skills and Expertise
+**How can we move from assumptions to decisions supported by evidence?**
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+That question pushed me deeper into analytics and toward the intersection that now defines my work:
 
-## Innovation and Problem-Solving
+**Marketing + Data + Experimentation**
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+## What I Do
 
-## Global Perspective, Local Impact
+I use data to understand customer behavior, identify growth opportunities and support better business decisions.
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+My approach goes beyond reporting what happened. I focus on understanding:
 
-## Continuous Learning
+- **Why did it happen?**
+- **What does it mean for the business?**
+- **What should we do next?**
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+My work spans **Marketing Analytics, Customer Analytics, CRO, experimentation and Business Intelligence**, connecting technical analysis with commercial objectives.
 
-## Collaboration and Communication
+## My Toolkit
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+My core tools include:
 
-## Get in Touch
+**Python · SQL · Tableau · Excel · Google Sheets**
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+I use them for data cleaning and transformation, exploratory and statistical analysis, A/B testing, customer segmentation, KPI development, dashboards and marketing performance analysis.
 
-_Let's build something amazing together!_
+I also have experience with **CRM platforms and automation**, connecting analytics with customer acquisition, engagement and retention strategies.
+
+## From Data to Business Decisions
+
+My marketing background gives me a perspective that goes beyond the numbers.
+
+I believe analysis becomes valuable when it helps answer a real business question.
+
+My approach can be summarized as:
+
+**Business Question → Data → Analysis → Insight → Decision**
+
+Whether I'm analyzing conversions, customer behavior, commercial performance or experiments, my goal is to **turn data into actionable insights that support growth.**
+
+## How I Work
+
+I value **critical thinking, curiosity and clear communication**.
+
+I enjoy questioning assumptions, exploring different explanations behind a result and translating complex analysis into conclusions stakeholders can actually use.
+
+Good analytics also means being clear about **what the data demonstrates — and what it doesn't.**
+
+## Let's Connect
+
+I'm interested in opportunities where **marketing, analytics and experimentation** come together to solve business problems and improve decision-making.
+
+You can explore my projects throughout this portfolio or connect with me through **LinkedIn and GitHub**.
