@@ -179,6 +179,12 @@ Organic generated:
 
 making it the largest source of conversions by absolute volume.
 
+### Traffic Source Visualization
+
+![Landing A/B Conversion Rate by Traffic Source](../../assets/images/project-visuals/ab_traffic_rate.png)
+
+*Conversion-rate comparison by acquisition source. This visual complements the statistical test by showing the practical size of the observed differences.*
+
 ### Statistical Result
 
 - **Chi-Square:** 8.662
@@ -284,6 +290,12 @@ Importantly, this result demonstrates **association, not causation**.
 Device type alone cannot be considered the direct cause of the conversion difference.
 
 ---
+
+### Device Conversion Visualization
+
+![Landing A/B Conversion Rate by Device](../../assets/images/project-visuals/ab_device_rate.png)
+
+*Device-level conversion comparison used alongside the Chi-Square test to translate statistical significance into a business-readable performance gap.*
 
 ## Key Findings
 

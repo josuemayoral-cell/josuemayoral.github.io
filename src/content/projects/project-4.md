@@ -106,6 +106,14 @@ However, aggregate profitability alone does not reveal whether commercial perfor
 
 This made the year-over-year comparison a critical next step.
 
+### Executive Tableau Dashboard
+
+![Andes Retail Group Executive Tableau Dashboard](../../assets/images/project-visuals/retail_overview.png)
+
+*Executive view of profit, revenue, cost, country performance, regional performance and revenue evolution.*
+
+The dashboard is structured to give stakeholders a rapid performance overview before moving into segmentation and seasonality.
+
 ---
 
 ## 02 — 2024 vs. 2025 Performance
@@ -176,6 +184,12 @@ Analyze the decline through:
 **Country → Customer Segment → Product Category → Season**
 
 to identify where the slowdown is concentrated.
+
+### Detailed Commercial Dashboard
+
+![Andes Retail Group Detailed Tableau Dashboard](../../assets/images/project-visuals/retail_detail.png)
+
+*Detailed Tableau analysis of profit margin, average revenue, average unit price, seasonality, customer segments and category performance.*
 
 ---
 

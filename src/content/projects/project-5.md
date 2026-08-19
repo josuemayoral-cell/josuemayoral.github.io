@@ -116,6 +116,12 @@ However, the relationship should not be interpreted as causal.
 
 Increasing purchase frequency artificially would not necessarily generate an equivalent increase in customer value.
 
+### Behavioral Evidence
+
+![NovaRetail Monthly Purchases vs Annual Revenue](../../assets/images/project-visuals/nova_revenue_scatter.png)
+
+*Customer-level relationship between purchase frequency and annual revenue, supporting the high-value customer segmentation hypothesis.*
+
 ### Recommendation
 
 Use purchase frequency as one dimension within customer segmentation strategies focused on:
@@ -154,6 +160,18 @@ Two explanations remain possible:
 or:
 
 **Higher Engagement → Greater Advertising Investment**
+
+### Advertising & Engagement Visualization
+
+![NovaRetail Visits vs Targeted Advertising Spend](../../assets/images/project-visuals/nova_ads_scatter.png)
+
+*Observed association between monthly visits and targeted advertising spend. The visualization supports exploration, while the project explicitly avoids interpreting correlation as causation.*
+
+### Correlation Overview
+
+![NovaRetail Correlation Heatmap](../../assets/images/project-visuals/nova_heatmap.png)
+
+*Correlation matrix used to prioritize the relationships that warranted deeper statistical and business interpretation.*
 
 ### Recommendation
 

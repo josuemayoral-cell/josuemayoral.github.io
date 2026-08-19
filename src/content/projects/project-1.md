@@ -84,6 +84,14 @@ By incorporating costs and marketing investment into the analysis, it becomes po
 
 This provides a stronger foundation for decisions related to customer acquisition, marketing efficiency and resource allocation.
 
+### Executive Dashboard
+
+![RappiPlus Executive Tableau Dashboard](../../assets/images/project-visuals/rappi_overview.png)
+
+*Tableau executive view connecting revenue, cost, marketing investment, net profit, average ticket and revenue evolution.*
+
+The dashboard provides a stakeholder-facing layer above the underlying analytical workflow, allowing the main commercial KPIs and performance trends to be reviewed in one place.
+
 ---
 
 ## 02 — Sales Performance
@@ -93,6 +101,18 @@ The transactional analysis was used to understand how customers were contributin
 Rather than focusing only on total sales, the analysis explored purchasing behavior and order-level performance to identify patterns that could influence commercial strategy.
 
 The **Average Order Value of approximately $385.93** provides an important reference point for evaluating customer value and future opportunities related to segmentation, promotions and retention.
+
+### Commercial Detail
+
+![RappiPlus Commercial Analysis Tableau Dashboard](../../assets/images/project-visuals/rappi_detail.png)
+
+*Detailed Tableau view combining marketing spend by country, product sales, category revenue and average-ticket performance.*
+
+The notebook analysis complements the dashboard with exploratory visualizations such as monthly revenue and marketing-investment trends:
+
+![RappiPlus Monthly Revenue Analysis](../../assets/images/project-visuals/rappi_income.png)
+
+![RappiPlus Monthly Marketing Spend Analysis](../../assets/images/project-visuals/rappi_marketing.png)
 
 ---
 

@@ -91,6 +91,14 @@ However, aggregate growth does not reveal which markets, customer segments or co
 
 The next stages of the analysis therefore focused on identifying where that value was concentrated.
 
+### Executive Tableau View
+
+![Andes Capital Executive Tableau Dashboard](../../assets/images/project-visuals/andes_overview.png)
+
+*Executive dashboard summarizing revenue, average ticket, commissions, year-over-year growth, sales volume, geographic performance and sales trend.*
+
+This view was designed to move from headline KPIs into the dimensions that explain commercial performance.
+
 ---
 
 ## 02 — Geographic Performance
@@ -167,6 +175,12 @@ Future analysis should compare:
 
 This would allow the company to diversify acquisition without sacrificing the performance of its strongest channel.
 
+### Detailed Commercial Analysis
+
+![Andes Capital Detailed Commercial Dashboard](../../assets/images/project-visuals/andes_detail.png)
+
+*Detailed Tableau view connecting property type, sales channel, customer segment and average-ticket performance.*
+
 ---
 
 ## 05 — Customer Segmentation
@@ -226,6 +240,10 @@ Develop retention and loyalty initiatives designed to increase customer lifetime
 ---
 
 ## 07 — Cohort Analysis
+
+![Andes Capital Cohort Matrix](../../assets/images/project-visuals/andes_cohort.png)
+
+*Tableau cohort matrix showing customer activity by acquisition month and months since initial purchase.*
 
 Cohort analysis was used to understand how purchasing behavior evolved over time.
 

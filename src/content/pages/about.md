@@ -12,7 +12,7 @@ seo:
 
 ## Marketing, Data & Experimentation
 
-I'm **Josué Mayoral**, a Marketing & Data Analyst with a background in marketing strategy, digital growth and data-driven decision-making.
+I'm **Josué Mayoral**, a Marketing & Data Analyst based in **Mexico**, with a background in marketing strategy, digital growth and data-driven decision-making.
 
 My experience in marketing led me to a simple question:
 
